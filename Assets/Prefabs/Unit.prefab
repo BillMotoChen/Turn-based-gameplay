@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 1634366728717729875}
   - component: {fileID: 4977239361187088365}
   - component: {fileID: 3107086853257260484}
+  - component: {fileID: 7843468908211601749}
   m_Layer: 7
   m_Name: Unit
   m_TagString: Untagged
@@ -326,6 +327,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UnitRagdollSpawner
   ragdollPrefab: {fileID: 246095661316486561, guid: 7d59f1eedf63a408aaea534da020d168, type: 3}
   originalRootBone: {fileID: 1062357243024200395}
+--- !u!114 &7843468908211601749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029185305312431611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e47147c722149bca4bfb5b56e73ffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrenadeAction
+  grenadeProjectilePrefab: {fileID: 125044059850028681, guid: 2c21e6bfa1a434bae88147e0474b054c, type: 3}
 --- !u!1 &2720321219509470655
 GameObject:
   m_ObjectHideFlags: 0
